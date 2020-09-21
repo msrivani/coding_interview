@@ -47,3 +47,6 @@ Created a new cass Butterfly, which extends Animal and Implements flying Behavio
 #Can you optimize your model to account for the metamorphosis from caterpillar to Butterfky
 
 Created a new class ButterflyStages(extends Animal). This is inherited by  Butterfly class and Cterpillar class. These classes implement Fly and Wlak Behaviors Respectively.
+
+#E-commit
+Created a new package count. Here the animal class is an abstract class with abstract methods fly(), swing(), sing(), swim(). All the animals Extend the Animal class. Each Animal overrides these 4 methods , which return a boolean value. The boolean value indicates whether the animal can  fly(), swing(), sing() or swim(). COuntAnimals class has an Animal array. There are counters for each behavior. This gets incremented depending on the animal's behavior. 
