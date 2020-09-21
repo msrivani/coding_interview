@@ -29,3 +29,6 @@ a. Fishes don’t sing
 b. Fishes don’t walk
 c. Fishes can swim
 Create a new fish class which extends Bird class and Implements swimming interface
+
+#6 - commit B2. Can you specialize the fish as a Shark and as a Clownfish?
+Created 2 new classes SHark and CLownFish extended from Fish. The display methods of these 2 classes are overridden to show their specific features.
