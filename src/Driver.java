@@ -55,6 +55,12 @@ public class Driver
     dolphin.swim();
     //D. Model animals that change their behaviour over time
     //D1. Can you model a butterfly
+
+    Caterpillar cater_pillar = new Caterpillar( "cater pillar" );
+    cater_pillar.display();
+    cater_pillar.walk();
+
+
     Butterfly butterfly = new Butterfly( "butterfly" );
     butterfly.display();
     butterfly.fly();
