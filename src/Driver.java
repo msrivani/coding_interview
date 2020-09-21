@@ -40,7 +40,7 @@ public class Driver
     parrot.performSinging();
 
     //B model fishes that can swim , dont sing, dont walk
-    Fish fish = new fish("fish");
+    Fish fish = new Fish("fish");
     fish.display();
     fish.swim();
 
