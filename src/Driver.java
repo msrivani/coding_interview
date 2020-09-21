@@ -39,10 +39,17 @@ public class Driver
     parrot.setSingBehavior( new SingCock() );
     parrot.performSinging();
 
-    //B model fishes that can swim , dont sing, dont walk
+    //B1. model fishes that can swim , dont sing, dont walk
     Fish fish = new Fish("fish");
     fish.display();
     fish.swim();
+    //B2.Can you specialize the fish as a Shark and as a Clownfish?
+    Shark shark = new Shark( "shark" );
+    Clownfish clownFish = new Clownfish( "clown fish" );
+    shark.display();
+    shark.swim();
+    clownFish.display();
+    clownFish.swim();
 
   }
 }
