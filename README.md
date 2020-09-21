@@ -44,3 +44,6 @@ a. A butterfly can fly
 b. A butterfly does not make a sound
 
 Created a new cass Butterfly, which extends Animal and Implements flying Behavior
+#Can you optimize your model to account for the metamorphosis from caterpillar to Butterfky
+
+Created a new class ButterflyStages(extends Animal). This is inherited by  Butterfly class and Cterpillar class. These classes implement Fly and Wlak Behaviors Respectively.
