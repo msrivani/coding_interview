@@ -54,6 +54,11 @@ public class Driver
     Dolphin dolphin = new Dolphin( "dolphin" );
     dolphin.display();
     dolphin.swim();
+    //D. Model animals that change their behaviour over time
+    //D1. Can you model a butterfly
+    Butterfly butterfly = new Butterfly( "butterfly" );
+    butterfly.display();
+    butterfly.fly();
 
 
   }

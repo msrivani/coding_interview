@@ -38,3 +38,9 @@ a. Can you model a dolphin that swims without inheriting from a fish class?
 b. How do you avoid duplicating code or introducing unneeded overhead?
 
 Achieved this by creating a Dolphin class by extending Animal class and implementing Swimming Behavior. This waty, dolphins are not a child of Fish class but they are animals which have swimming behavior
+
+#8. 1. Can you model a butterfly?
+a. A butterfly can fly
+b. A butterfly does not make a sound
+
+Created a new cass Butterfly, which extends Animal and Implements flying Behavior
