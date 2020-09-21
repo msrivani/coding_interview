@@ -1,12 +1,16 @@
-public class Bird extends Animal implements SingBehavior
+public abstract class Bird extends Animal
 {
+  public void setSingBehavior( SingBehavior singBehavior_ )
+  {
+    _singBehavior = singBehavior_;
+  }
+
+  SingBehavior _singBehavior;
   Bird(String name){
     super(name);
   }
-  @Override
-  public void sing()
-  {
-    System.out.println("Bird is Singing");
+  public void performSinging(){
+    _singBehavior.sing();
   }
 
   @Override
