@@ -17,6 +17,14 @@ public class Driver
     chicken.performSinging();
     chicken.fly();
 
+    //step 3: would you model a rooster
+    Rooster rooster = new Rooster( "rooster" );
+    rooster.display();
+    rooster.performSinging();
+    //another way of modelling a rooster is changing the SingingBehavior of chicken to SingCock type.
+    chicken.setSingBehavior( new SingCock() );
+    chicken.performSinging();
+
 
   }
 }
