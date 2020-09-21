@@ -23,3 +23,9 @@ c. A parrot living near the rooster says: “Cock-a-doodle-doo”
 d. How do you keep the parrot maintainable? What if we need another parrot
 lives near a Duck? Or near a phone that rings frequently?
 All these are achieved by creating a new Parrot class which extends bird class. The singing behavior can be modified by setting the singing sound.
+
+#5 - commit B1. In addition to the birds, can you model a fish?
+a. Fishes don’t sing
+b. Fishes don’t walk
+c. Fishes can swim
+Create a new fish class which extends Bird class and Implements swimming interface
