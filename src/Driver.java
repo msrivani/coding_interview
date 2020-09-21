@@ -50,6 +50,11 @@ public class Driver
     shark.swim();
     clownFish.display();
     clownFish.swim();
+    //B3 Dolphins are not exactly fish, yet, they are good swimmers
+    Dolphin dolphin = new Dolphin( "dolphin" );
+    dolphin.display();
+    dolphin.swim();
+
 
   }
 }

@@ -32,3 +32,9 @@ Create a new fish class which extends Bird class and Implements swimming interfa
 
 #6 - commit B2. Can you specialize the fish as a Shark and as a Clownfish?
 Created 2 new classes SHark and CLownFish extended from Fish. The display methods of these 2 classes are overridden to show their specific features.
+
+#7- commit B.3. Dolphins are not exactly fish, yet, they are good swimmers
+a. Can you model a dolphin that swims without inheriting from a fish class?
+b. How do you avoid duplicating code or introducing unneeded overhead?
+
+Achieved this by creating a Dolphin class by extending Animal class and implementing Swimming Behavior. This waty, dolphins are not a child of Fish class but they are animals which have swimming behavior
