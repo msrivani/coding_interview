@@ -7,6 +7,11 @@ public abstract class Bird extends Animal
     _singBehavior = singBehavior_;
   }
 
+  public SingBehavior getSingBehavior()
+  {
+    return _singBehavior;
+  }
+
   SingBehavior _singBehavior;
   Bird(String name){
     super(name);
