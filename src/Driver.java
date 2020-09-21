@@ -15,7 +15,6 @@ public class Driver
     duck.swim();
     chicken.display();
     chicken.performSinging();
-    chicken.fly();
 
     //step 3: would you model a rooster
     Rooster rooster = new Rooster( "rooster" );
