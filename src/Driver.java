@@ -24,7 +24,20 @@ public class Driver
     //another way of modelling a rooster is changing the SingingBehavior of chicken to SingCock type.
     chicken.setSingBehavior( new SingCock() );
     chicken.performSinging();
+    //model a parrot
+    //“Cock-a-doodle-doo”
+    Parrot parrot = new Parrot( "parrot" );
+    parrot.display();
 
+    //A parrot living with dogs says: “Woof, woof”
+    parrot.setSingBehavior( new SingWoof() );
+    parrot.performSinging();
+    //A parrot living with cats says: “Meow”
+    parrot.setSingBehavior( new SingMeow() );
+    parrot.performSinging();
+    //A parrot living near the rooster says: “Cock-a-doodle-doo”
+    parrot.setSingBehavior( new SingCock() );
+    parrot.performSinging();
 
   }
 }

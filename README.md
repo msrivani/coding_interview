@@ -15,3 +15,11 @@ How is the rooster related to the chicken?
 Its just another bird with a different singinBehavior
 
 Here I created a new concrete ckass with “Cock-a-doodle-doo” singing behavior for rooster.
+
+#4- commit
+A parrot living with dogs says: “Woof, woof”
+b. A parrot living with cats says: “Meow”
+c. A parrot living near the rooster says: “Cock-a-doodle-doo”
+d. How do you keep the parrot maintainable? What if we need another parrot
+lives near a Duck? Or near a phone that rings frequently?
+All these are achieved by creating a new Parrot class which extends bird class. The singing behavior can be modified by setting the singing sound.
